@@ -6,7 +6,6 @@ yarn-error.log*
 
 # 输出文件和抓取结果
 results/
-*.json
 *.png
 *.html
 *.jpg
@@ -42,7 +41,7 @@ temp/
 *.temp
 
 # Playwright 浏览器缓存
- playwright/.cache/
+playwright/.cache/
 
 # 操作系统文件
 ehthumbs.db
