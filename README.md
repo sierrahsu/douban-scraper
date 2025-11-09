@@ -16,7 +16,6 @@
 - 📊 **数据导出** - 结构化JSON格式输出
 
 ## 📦 安装
-
 1. 克隆项目
 ```
 git clone https://github.com/sierrahsu/douban-scraper.git
