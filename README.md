@@ -17,20 +17,20 @@
 
 ## 📦 安装  
 
-1. 克隆项目  
+**1. 克隆项目** 
 ```
 git clone https://github.com/sierrahsu/douban-scraper.git
 cd douban-scraper
 ```
-2.安装依赖  
+**2.安装依赖**  
 ```
 npm install
 ```
-3.安装浏览器（Playwright）  
+**3.安装浏览器（Playwright）**  
 ```
 npx playwright install chromium
 ```
-4.配置项目（编辑 config.js 文件，根据需求调整配置）  
+**4.配置项目（编辑 config.js 文件，根据需求调整配置）**  
 ```
 module.exports = {
   // 搜索配置
@@ -54,7 +54,7 @@ module.exports = {
   }
 };
 ```
-5.运行爬虫  
+**5.运行爬虫**  
 ```
 npm start
 ```
