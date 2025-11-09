@@ -20,13 +20,10 @@
 1. 克隆项目
 git clone https://github.com/sierrahsu/douban-scraper.git
 cd douban-scraper
-
 2. 安装依赖
 npm install
-
 3.安装浏览器（Playwright）
 npx playwright install chromium
-
 4.配置项目
 编辑 config.js 文件，根据需求调整配置：
 module.exports = {
@@ -57,15 +54,11 @@ npm start
 ## 📖 使用方法
 
 1.完整运行
-# 运行所有功能：搜索 + 电影评论 + TOP10
-npm start
+npm start //运行所有功能：搜索 + 电影评论 + TOP10
 
 2.调试模式
-# 调试搜索功能
-npm run debug
-
-# 调试TOP电影功能  
-npm run debug-top
+npm run debug //调试搜索功能
+npm run debug-top //调试TOP电影功能  
 
 3.自定义运行
 // 在 main.js 中导入功能模块
@@ -79,6 +72,7 @@ const {
 await scrapeSearchResults(page, '你的关键词');
 
 ## 📊 输出示例
+
 1.搜索结果结构
 {
   "searchResults": {
@@ -119,6 +113,7 @@ await scrapeSearchResults(page, '你的关键词');
 }
 
 ## 🛠️ 项目结构
+
 douban-scraper/
 ├── config.js                 # 配置文件
 ├── main.js                   # 主程序入口
@@ -134,6 +129,7 @@ douban-scraper/
     └── helpers.js            # 辅助函数
 
 ##  🎯 核心模块
+
 1.extractors.js
      extractSearchResults() - 搜索结果的提取
      extractMovieComments() - 电影评论的提取
