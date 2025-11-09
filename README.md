@@ -15,7 +15,8 @@
 - 🏆 **TOP10电影** - 自动抓取豆瓣TOP10电影数据
 - 📊 **数据导出** - 结构化JSON格式输出
 
-## 📦 安装
+## 📦 安装  
+
 1. 克隆项目  
 ```
 git clone https://github.com/sierrahsu/douban-scraper.git
@@ -59,16 +60,16 @@ npm start
 ```
 ## 📖 使用方法
 
--完整运行
+**完整运行**
 ```
 npm start    //运行所有功能：搜索 + 电影评论 + TOP10
 ```
--调试模式
+**调试模式**
 ```
 npm run debug     //调试搜索功能
 npm run debug-top    //调试TOP电影功能  
 ```
--自定义运行
+**自定义运行**
 ```
 // 在 main.js 中导入功能模块
 const { 
